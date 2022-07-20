@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+. {
+  height: 60px;
+  width: 100%;
+  background-color: red;
+}
+.logo {
+  background-color: white;
+  color: red;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  border: 1px solid white;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 85px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.account {
+  border: 2px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 26px;
+  right: 26px;
+}
+.login {
+  text-decoration: none;
+  position: relative;
+  right: 20px;
+  color: white;
+  position: relative;
+  bottom: 18px;
+  right: 78px;
+}
+.bottomleft {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 520px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.bottomright {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 720px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.bottom1 {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 552px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.bottom2 {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 586px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.bottom3 {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 618px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.bottom4 {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 653px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.bottom5 {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 686px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+.center1 {
+  border: 2px solid whitesmoke;
+  height: 180px;
+  width: 857px;
+  position: absolute;
+  left: 251px;
+  bottom: 265px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.image1 {
+  border: 2px solid white;
+  border-radius: 30px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.text1 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 133px;
+  bottom: 78px;
+  font-size: 36;
+  font-size: 30px;
+}
+.text2 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 133px;
+  bottom: 78px;
+  font-size: 36;
+  font-size: 10px;
+}
+.text3 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 133px;
+  bottom: 78px;
+  font-size: 36;
+  font-size: 10px;
+}
+
+.center2 {
+  border: 2px solid whitesmoke;
+  height: 180px;
+  width: 857px;
+  position: absolute;
+  left: 251px;
+  bottom: 239px;
+  top: 200px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.image1 {
+  border: 2px solid white;
+  border-radius: 30px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.text4 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 133px;
+  bottom: 78px;
+  font-size: 36;
+  font-size: 30px;
+}
+.text5 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 133px;
+  bottom: 78px;
+  font-size: 36;
+  font-size: 10px;
+}
+.text6 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 133px;
+  bottom: 78px;
+  font-size: 36;
+  font-size: 10px;
+}
+.box {
+  height: 1px;
+  width: 788px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.18);
+  position: absolute;
+  border: 1px solid whitesmoke;
+  bottom: 44px;
+  left: 30px;
+}
+.name {
+  color: #192f60;
+  position: relative;
+  left: 57px;
+  bottom: 48px;
+  font-family: Poppins;
+  font-size: 15px;
+}
+.amount {
+  color: #192f60;
+  position: relative;
+  left: 178px;
+  bottom: 82px;
+  font-family: Poppins;
+  font-size: 15px;
+}
+.filter {
+  height: 450px;
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 85px;
+  border: 2px solid whitesmoke;
+  display: inline-block;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute;
+}
+.text {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+.location {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+.selectlocation {
+  margin: top 3px;
+  margin-left: 15px;
+}
+.cuisine {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 26px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 15px;
+}
+.check1 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+.check2 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+.check3 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+.check4 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+.check5 {
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+.costfortwo {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 17px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 20px;
+}
+.cost1 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 7px;
+}
+.cost2 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 7px;
+}
+.cost3 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 7px;
+}
+.cost4 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 7px;
+}
+.cost5 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 7px;
+}
+h1 {
+  color: #192f60;
+  font-family: poppins;
+  font-size: 36px;
+  margin-top: 15px;
+  margin-left: 85px;
+}
+.main {
+  background-color: white;
+  border: 2px lightslategrey;
+}
+.sort {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sort1 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 11px;
+}
+
+.sort2 {
+  background-color: white;
+  color: #192f60;
+  margin-left: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(73, 23, 253);
+    color: blanchedalmond;
+  }
+
+  header {
+    width: 160%;
+    height: 200px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+  }
+  .logo {
+    background-color: aqua;
+    color: black;
+  }
+  .bottom1 {
+    background-color: aqua;
+    color: yellow;
+  }
+  .bottom3 {
+    background-color: rgb(61, 10, 155);
+    color: yellow;
+  }
+  .bottom5 {
+    background-color: burlywood;
+    color: burlywood;
+  }
+  .button1 {
+    height: 30px;
+    background-color: brown;
+  }
+}
